@@ -28,11 +28,39 @@ body {
     top: 225px;
 }
 
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: -75px;
+    right: -75px;
+}
+
 .penguin {
     width: 300px;
     height: 300px;
     margin: auto;
     margin-top: 75px;
+    z-index: 4;
+    position: relative;
+}
+
+.penguin-head {
+    height: 45%;
+    width: 50%;
+    background: linear-gradient(45deg, gray, rgb(239, 240, 228));
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+}
+
+.penguin-body {
+    width: 53%;
+    height: 45%;
+    background: linear-gradient(45deg, rgb(134, 133, 133) 0%, rgb(234, 231));
 }
 
 .ground {
